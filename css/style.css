@@ -7,7 +7,7 @@ body {
   justify-content: space-between;
   align-items: center;
   box-shadow: 10px 10px 50px;
-  filter: drop-shadow(7px 7px 15px);
+  filter: drop-shadow(7px 7px 30px );
 }
 .img-logo {
   height: 45px;
@@ -32,6 +32,36 @@ body {
   cursor: pointer;
   transition: 0.15s;
 }
+.prd{
+  width: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  margin-top: 10px;
+  
+}
+.prd-details{
+  padding: 20px;
+  align-self: center;
+  width: 80%;
+}
+.prd-img{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.byn{
+  width: 70%;
+  border-radius: 15px;
+  padding: 10px 15px;
+  color: white;
+  background-color: black;
+  border: 1px solid red;
+}
+.flex-prd, .prds{
+  display: flex;
+  gap: 5px;
+}
+
 /* Animations */
 .e-btn:hover {
   background-color: lightgrey;
